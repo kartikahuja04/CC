@@ -6,7 +6,7 @@ public:
         helperfunc(0,ans, ds, candidates,target);
         return ans;
     }
-    void helperfunc(int index , vector<vector<int>> &ans , vector<int> &ds , vector<int>candidates , int target){
+    void helperfunc(int index , vector<vector<int>> &ans , vector<int> &ds , vector<int>&candidates , int target){
     if(index == candidates.size()){
         if(target==0){
             ans.push_back(ds);
